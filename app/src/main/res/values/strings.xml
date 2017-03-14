@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <string name="genre1">Pop</string>
+    <string name="genre2">Jazz</string>
+
+    <string name="pop1">Photograph</string>
+    <string name="pop2">Shape of heart</string>
+
+    <string name="jazz1">You are still the one.</string>
+    <string name="jazz2">Second Nature</string>
+
+
+</resources>
