@@ -13,8 +13,8 @@ public class Genres extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_genres);
         TextView Pop = (TextView) findViewById(R.id.pop);
-        final Intent in1 = new Intent(this,Pop.class);
-        TextView Jazz = (TextView)findViewById(R.id.jazz);
+        final Intent in1 = new Intent(this, Pop.class);
+        TextView Jazz = (TextView) findViewById(R.id.jazz);
         final Intent in2 = new Intent(this, Jazz.class);
 
         Pop.setOnClickListener(new View.OnClickListener() {

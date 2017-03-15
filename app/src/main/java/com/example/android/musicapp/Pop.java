@@ -14,7 +14,7 @@ public class Pop extends AppCompatActivity {
         setContentView(R.layout.activity_pop);
         TextView t1 = (TextView) findViewById(R.id.pop1);
         TextView t2 = (TextView) findViewById(R.id.pop2);
-        final Intent in= new Intent(this,NowPlaying.class);
+        final Intent in = new Intent(this, NowPlaying.class);
         t1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,5 +28,7 @@ public class Pop extends AppCompatActivity {
                 startActivity(in);
             }
         });
+
+
     }
 }

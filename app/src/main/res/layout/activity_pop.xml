@@ -4,9 +4,10 @@
     android:id="@+id/activity_pop"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#C4B6C9"
+    android:orientation="vertical"
     tools:context="com.example.android.musicapp.Pop">
+
     <TextView
         android:id="@+id/pop1"
         style="@style/CategoryStyle"

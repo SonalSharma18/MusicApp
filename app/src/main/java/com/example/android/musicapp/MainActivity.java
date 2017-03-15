@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView explore = (TextView) findViewById(R.id.explore);
         ImageView img = (ImageView) findViewById(R.id.play_icon);
-        final Intent in = new Intent(this,Genres.class);
+        final Intent in = new Intent(this, Genres.class);
         explore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

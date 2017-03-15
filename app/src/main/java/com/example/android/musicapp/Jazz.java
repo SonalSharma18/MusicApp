@@ -14,7 +14,7 @@ public class Jazz extends AppCompatActivity {
         setContentView(R.layout.activity_jazz);
         TextView t1 = (TextView) findViewById(R.id.jazz1);
         TextView t2 = (TextView) findViewById(R.id.jazz2);
-        final Intent in= new Intent(this,NowPlaying.class);
+        final Intent in = new Intent(this, NowPlaying.class);
         t1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
